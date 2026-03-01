@@ -1,14 +1,15 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
-    {"name":"blob","order":2,"path":"objects/blob/blob.yy",},
+    {"name":"blobject","order":2,"path":"objects/blobject/blobject.yy",},
     {"name":"Object2","order":4,"path":"objects/Object2/Object2.yy",},
     {"name":"Object4","order":7,"path":"objects/Object4/Object4.yy",},
     {"name":"oSolid","order":5,"path":"objects/oSolid/oSolid.yy",},
-    {"name":"blobidle","order":1,"path":"sprites/blobidle/blobidle.yy",},
     {"name":"blobjump","order":8,"path":"sprites/blobjump/blobjump.yy",},
     {"name":"blobland","order":9,"path":"sprites/blobland/blobland.yy",},
+    {"name":"spr_player_idle","order":1,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
     {"name":"Sprite2","order":3,"path":"sprites/Sprite2/Sprite2.yy",},
     {"name":"Sprite3","order":6,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"Sprite6","order":10,"path":"sprites/Sprite6/Sprite6.yy",},
   ],
 }
