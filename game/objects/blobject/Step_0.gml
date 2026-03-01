@@ -25,7 +25,21 @@ if (place_meeting(x, y + y_speed, oSolid)) {
 }
 
 y += y_speed;
+// Vertical collision
+if (place_meeting(x, y + y_speed, oSolid)) {
 
+    // Move player up to collision point
+    while (!place_meeting(x, y + sign(y_speed), oSolid)) {
+        y += sign(y_speed);
+    }
+
+    // If falling, check for bounce block
+    if (y_speed > 0 && place_meeting(x, y + 1, obj_bounce)) {
+        y_speed = -15; // bounce strength
+    } else {
+        y_speed = 0;
+    }
+}
 if (place_meeting(x + x_speed, y, oSolid)) {
     while (!place_meeting(x + sign(x_speed), y, oSolid)) {
         x += sign(x_speed)

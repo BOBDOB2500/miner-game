@@ -2,10 +2,12 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"blobject","order":2,"path":"objects/blobject/blobject.yy",},
+    {"name":"obj_bounce","order":18,"path":"objects/obj_bounce/obj_bounce.yy",},
     {"name":"Object2","order":4,"path":"objects/Object2/Object2.yy",},
     {"name":"Object4","order":7,"path":"objects/Object4/Object4.yy",},
     {"name":"Object5","order":12,"path":"objects/Object5/Object5.yy",},
     {"name":"Object6","order":15,"path":"objects/Object6/Object6.yy",},
+    {"name":"Object8","order":19,"path":"objects/Object8/Object8.yy",},
     {"name":"oSolid","order":5,"path":"objects/oSolid/oSolid.yy",},
     {"name":"ParticleSystem1","order":11,"path":"particles/ParticleSystem1/ParticleSystem1.yy",},
     {"name":"Room2","order":16,"path":"rooms/Room2/Room2.yy",},
@@ -17,5 +19,6 @@
     {"name":"Sprite3","order":6,"path":"sprites/Sprite3/Sprite3.yy",},
     {"name":"Sprite7","order":13,"path":"sprites/Sprite7/Sprite7.yy",},
     {"name":"Sprite8","order":14,"path":"sprites/Sprite8/Sprite8.yy",},
+    {"name":"Sprite9","order":17,"path":"sprites/Sprite9/Sprite9.yy",},
   ],
 }
