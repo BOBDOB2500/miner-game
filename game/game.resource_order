@@ -1,13 +1,14 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
-    {"name":"Object1","order":2,"path":"objects/Object1/Object1.yy",},
+    {"name":"blob","order":2,"path":"objects/blob/blob.yy",},
     {"name":"Object2","order":4,"path":"objects/Object2/Object2.yy",},
     {"name":"Object4","order":7,"path":"objects/Object4/Object4.yy",},
     {"name":"oSolid","order":5,"path":"objects/oSolid/oSolid.yy",},
-    {"name":"Sprite1","order":1,"path":"sprites/Sprite1/Sprite1.yy",},
+    {"name":"blobidle","order":1,"path":"sprites/blobidle/blobidle.yy",},
+    {"name":"blobjump","order":8,"path":"sprites/blobjump/blobjump.yy",},
+    {"name":"blobland","order":9,"path":"sprites/blobland/blobland.yy",},
     {"name":"Sprite2","order":3,"path":"sprites/Sprite2/Sprite2.yy",},
     {"name":"Sprite3","order":6,"path":"sprites/Sprite3/Sprite3.yy",},
-    {"name":"Sprite4","order":8,"path":"sprites/Sprite4/Sprite4.yy",},
   ],
 }

@@ -36,5 +36,7 @@ if (place_meeting(x + x_speed, y, oSolid)) {
 x += x_speed
 
 if (place_meeting(x, y, Object4)) {
+
     room_restart()
+
 }
