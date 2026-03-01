@@ -22,6 +22,7 @@
     {"id":{"name":"blobject","path":"objects/blobject/blobject.yy",},},
     {"id":{"name":"grrr","path":"objects/grrr/grrr.yy",},},
     {"id":{"name":"obj_bounce","path":"objects/obj_bounce/obj_bounce.yy",},},
+    {"id":{"name":"Object11","path":"objects/Object11/Object11.yy",},},
     {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},},
     {"id":{"name":"Object4","path":"objects/Object4/Object4.yy",},},
     {"id":{"name":"Object5","path":"objects/Object5/Object5.yy",},},
@@ -33,6 +34,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
+    {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"spr_player_jump","path":"sprites/spr_player_jump/spr_player_jump.yy",},},
     {"id":{"name":"spr_player_land","path":"sprites/spr_player_land/spr_player_land.yy",},},
@@ -50,6 +52,7 @@
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
+    {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
