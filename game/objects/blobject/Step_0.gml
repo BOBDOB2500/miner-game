@@ -55,11 +55,6 @@ if (!on_ground) {
     state = "idle"; // standing still
 }
 
-// Optional: landing animation (only trigger on landing)
-if (on_ground && state == "fall" && y_speed == 0) {
-    state = "land";
-}
-
 switch(state) {
     case "idle":
         sprite_index = spr_player_idle;
@@ -73,8 +68,6 @@ switch(state) {
         sprite_index = spr_player_jump;
         image_speed = 0; // freeze in midair or small frame change
         break;
-    case "land":
-        sprite_index = spr_player_land;
-        image_speed = 0.2; // landing animation
-        break;
 }
+if (x_speed > 0) image_xscale = 0.5;
+if (x_speed < 0) image_xscale = -0.5;
