@@ -25,17 +25,14 @@ if (place_meeting(x, y + y_speed, oSolid)) {
 }
 
 y += y_speed;
-// Vertical collision
 if (place_meeting(x, y + y_speed, oSolid)) {
 
-    // Move player up to collision point
     while (!place_meeting(x, y + sign(y_speed), oSolid)) {
         y += sign(y_speed);
     }
 
-    // If falling, check for bounce block
     if (y_speed > 0 && place_meeting(x, y + 1, obj_bounce)) {
-        y_speed = -15; // bounce strength
+        y_speed = -15;
     } else {
         y_speed = 0;
     }
@@ -53,10 +50,16 @@ if (place_meeting(x, y, Object4)) {
 
     room_restart()
 }
-// Check if player is on the ground
+if (place_meeting(x, y, grrr)) {
+
+    room_restart()
+}
+if (place_meeting(x, y, updown)) {
+
+    room_restart()
+}
 var on_ground = place_meeting(x, y + 1, oSolid)
 
-// Determine state
 if (!on_ground) {
     if (y_speed < 0) {
         state = "jump"; // moving up
