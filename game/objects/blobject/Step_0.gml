@@ -69,5 +69,3 @@ switch(state) {
         image_speed = 0; // freeze in midair or small frame change
         break;
 }
-if (x_speed > 0) image_xscale = 0.5;
-if (x_speed < 0) image_xscale = -0.5;
