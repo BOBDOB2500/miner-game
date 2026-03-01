@@ -2,6 +2,7 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"blobject","order":2,"path":"objects/blobject/blobject.yy",},
+    {"name":"grrr","order":22,"path":"objects/grrr/grrr.yy",},
     {"name":"obj_bounce","order":18,"path":"objects/obj_bounce/obj_bounce.yy",},
     {"name":"Object2","order":4,"path":"objects/Object2/Object2.yy",},
     {"name":"Object4","order":7,"path":"objects/Object4/Object4.yy",},

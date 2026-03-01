@@ -20,6 +20,7 @@
   "name":"game",
   "resources":[
     {"id":{"name":"blobject","path":"objects/blobject/blobject.yy",},},
+    {"id":{"name":"grrr","path":"objects/grrr/grrr.yy",},},
     {"id":{"name":"obj_bounce","path":"objects/obj_bounce/obj_bounce.yy",},},
     {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},},
     {"id":{"name":"Object4","path":"objects/Object4/Object4.yy",},},
