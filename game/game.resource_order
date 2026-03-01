@@ -1,13 +1,15 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
-    {"name":"Object1","order":2,"path":"objects/Object1/Object1.yy",},
+    {"name":"blobject","order":2,"path":"objects/blobject/blobject.yy",},
     {"name":"Object2","order":4,"path":"objects/Object2/Object2.yy",},
     {"name":"Object4","order":7,"path":"objects/Object4/Object4.yy",},
     {"name":"oSolid","order":5,"path":"objects/oSolid/oSolid.yy",},
-    {"name":"Sprite1","order":1,"path":"sprites/Sprite1/Sprite1.yy",},
+    {"name":"spr_player_idle","order":1,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
+    {"name":"spr_player_jump","order":8,"path":"sprites/spr_player_jump/spr_player_jump.yy",},
+    {"name":"spr_player_land","order":9,"path":"sprites/spr_player_land/spr_player_land.yy",},
+    {"name":"spr_player_walk","order":10,"path":"sprites/spr_player_walk/spr_player_walk.yy",},
     {"name":"Sprite2","order":3,"path":"sprites/Sprite2/Sprite2.yy",},
     {"name":"Sprite3","order":6,"path":"sprites/Sprite3/Sprite3.yy",},
-    {"name":"Sprite4","order":8,"path":"sprites/Sprite4/Sprite4.yy",},
   ],
 }
