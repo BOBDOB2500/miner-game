@@ -8,6 +8,7 @@
     {"name":"Object6","order":15,"path":"objects/Object6/Object6.yy",},
     {"name":"oSolid","order":5,"path":"objects/oSolid/oSolid.yy",},
     {"name":"ParticleSystem1","order":11,"path":"particles/ParticleSystem1/ParticleSystem1.yy",},
+    {"name":"Room2","order":16,"path":"rooms/Room2/Room2.yy",},
     {"name":"spr_player_idle","order":1,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
     {"name":"spr_player_jump","order":8,"path":"sprites/spr_player_jump/spr_player_jump.yy",},
     {"name":"spr_player_land","order":9,"path":"sprites/spr_player_land/spr_player_land.yy",},

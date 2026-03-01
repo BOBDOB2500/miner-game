@@ -39,11 +39,6 @@ if (place_meeting(x, y, Object4)) {
 
     room_restart()
 }
- if (place_meeting(x, y, Object6)) {
-    room_goto(rm_level2); // go to Room 2
-
-}
-
 // Check if player is on the ground
 var on_ground = place_meeting(x, y + 1, oSolid)
 
