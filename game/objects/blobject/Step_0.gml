@@ -38,6 +38,9 @@ x += x_speed
 if (place_meeting(x, y, Object4)) {
 
     room_restart()
+}
+ if (place_meeting(x, y, Object6)) {
+    room_goto(rm_level2); // go to Room 2
 
 }
 
