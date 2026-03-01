@@ -48,8 +48,6 @@ var on_ground = place_meeting(x, y + 1, oSolid)
 if (!on_ground) {
     if (y_speed < 0) {
         state = "jump"; // moving up
-    } else {
-        state = "fall"; // moving down
     }
 } else if (x_speed != 0) {
     state = "walk"; // moving left/right
@@ -74,10 +72,6 @@ switch(state) {
     case "jump":
         sprite_index = spr_player_jump;
         image_speed = 0; // freeze in midair or small frame change
-        break;
-    case "fall":
-        sprite_index = spr_player_fall;
-        image_speed = 0;
         break;
     case "land":
         sprite_index = spr_player_land;
