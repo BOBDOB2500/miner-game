@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Object4",
+  "%Name":"Object5",
   "eventList":[],
   "managed":true,
-  "name":"Object4",
+  "name":"Object5",
   "overriddenProperties":[],
   "parent":{
     "name":"game",
@@ -28,9 +28,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite3",
-    "path":"sprites/Sprite3/Sprite3.yy",
+    "name":"Sprite7",
+    "path":"sprites/Sprite7/Sprite7.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"Sprite7",
+    "path":"sprites/Sprite7/Sprite7.yy",
+  },
   "visible":true,
 }
